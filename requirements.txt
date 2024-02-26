@@ -2,5 +2,6 @@ plotly==5.4.0  # Use a version that is available and works for your app
 python==3.9.7
 scikit-learn==0.24.2
 streamlit==1.9.0
+joblib==1.0.1
 
 # Add other dependencies
