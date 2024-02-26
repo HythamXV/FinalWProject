@@ -8,7 +8,7 @@ import pickle
 
 st.title ("Water quality prediction Web App")
 st.info('Easy Application For Water quality prediction Desseas')
-model=pickle.load(open(r"C:\Users\osamh\Water\RandomForestClassifier_model1.sav" ,'rb'))
+model=pickle.load(open("RandomForestClassifier_model1.sav" ,'rb'))
 
 st.sidebar.write ("")
 #st.sidebar.markdown ("hhhh")import pickle
