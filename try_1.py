@@ -2,10 +2,14 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import os 
+
 
 st.title("Water quality prediction Web App")
 st.info('Easy Application For Water quality prediction Diseases')
-model = pickle.load(open("RandomForestClassifier_model1.sav", 'rb'))
+
+model_path = os.path.join(os.path.dirname(__file__), "RandomForestClassifier_model1.sav")
+model = pickle.load(open(model_path, 'rb'))
 
 st.sidebar.write("")
 st.sidebar.header("Feature Selection")
