@@ -1,0 +1,3 @@
+plotly==5.4.0  # Use a version that is available and works for your app
+openai
+streamlit
